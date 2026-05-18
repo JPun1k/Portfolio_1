@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Aboreto&family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Abel", sans-serif;
+}
+.portal {
+    width: 100vw;
+    height: 100vh;
+    font-size: 12px;
+}
+.portal__header {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    background: linear-gradient(rgba(0, 0, 0, 0.7)), url(../img/zp_bg_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.header-hero {
+    width: 35%;
+    height: 40vh;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly; 
+}
+.header-hero__title{
+    text-transform: uppercase;
+    font-size: 5.3em;
+    color: white;
+}
+.header-hero__subtitle {
+    font-size: 2em;
+    color: white;
+}
+.header-hero__buttons {
+    width: 45%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    font-size: 2.16em;
+}
+.header-btn {
+    width: 42%;
+    height: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.header-btn--blue {
+    background: #2378FC;
+}
+.header-btn--green {
+    background: #30BCC9;
+}
+.header-btn--yellow {
+    background: #FFC41E;
+}
+.header-btn--red {
+    background: #F6404F;
+}
+.header-nav{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #2378FC;
+}
+.header-nav__item{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 2em;
+}
+.header_p{
+    line-height: 2;
+}
+.nav_p:hover{
+    color: #FFC41E;
+    text-decoration: underline;
+}
+img{
+    width: 60%;
+}
+.portal__section--popular {
+    height: 110vh;
+    background: #FFC41E;
+}
+.section-title {
+    width: 25%;
+    height: 12vh;
+    font-size: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.popular-item{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.popular_item--content{
+    width: 30%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.popular_p {
+    width: 80%;
+    font-size: 1.3em;
+}
+.popular_name {
+    font-size: 1.75em;
+}
+.main_img{
+    width: 80%;
+    height: 70%;
+}
+.portal__section--content{
+    background: #FAF3E3;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50%;
+
+}
+.content-columns__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25%;
+    height: 100%;
+}
+.article-card-p {
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+.article-card{
+    width: 95%;
+    font-size: 2.5em;
+}
+.content-columns__right{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.news-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.news_p {
+    font-size: 1.75em;
+    line-height: 1.4;
+}
+.news-item {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.news-item img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+}
+.portal__footer {
+    background: #30BCC9;
+    padding: 5% 0;
+}
+.footer-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-nav__col {
+    color: white;
+}
+.footer-nav__col h3 {
+    margin-bottom: 5%;
+    font-size: 1.75em;
+}
+.footer-nav__col p {
+    font-size: 1.33em;
+}
+.footer-nav__col p:hover {
+    color: #d5e147;
+    text-decoration: underline;
+}
+.footer-store {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-store img {
+    width: 100%;
+    max-width: 140px;
+    margin: 5%
+}
+
+.footer-store img:nth-child(2n) {
+    border-radius: 10px;
+}
